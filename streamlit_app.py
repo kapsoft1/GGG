@@ -26,15 +26,15 @@ def main():
     if st.button("Gille le bg juif"):
         goat_photo_1 = get_random_goat_photo()
         if goat_photo_1:
-            st.image(goat_photo_1, caption="Random Goat Photo 1", use_column_width=True)
+            st.image(goat_photo_1, caption="Gilles", use_column_width=True)
         else:
             st.error("Failed to fetch goat photo. Please try again.")
 
     # Button to display the second random goat photo
-    if st.button("Geof le plus beau cul"):
+    if st.button("Geoff le plus beau cul"):
         goat_photo_2 = get_random_goat_photo()
         if goat_photo_2:
-            st.image(goat_photo_2, caption="Random Goat Photo 2", use_column_width=True)
+            st.image(goat_photo_2, caption="Geoff", use_column_width=True)
         else:
             st.error("Failed to fetch goat photo. Please try again.")
 
@@ -42,7 +42,7 @@ def main():
     if st.button("Guillaume le bientôt chauve"):
         goat_photo_3 = get_random_goat_photo()
         if goat_photo_3:
-            st.image(goat_photo_3, caption="Random Goat Photo 3", use_column_width=True)
+            st.image(goat_photo_3, caption="Guillaume", use_column_width=True)
         else:
             st.error("Failed to fetch goat photo. Please try again.")
 
