@@ -20,7 +20,7 @@ def get_random_goat_photo():
 
 # Streamlit app
 def main():
-    st.title("Random Goat Photo App")
+    st.title("Mon app dans ton fion")
 
     # Button to display the first random goat photo
     if st.button("Gille le bg juif"):
